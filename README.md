@@ -4,6 +4,15 @@ A simple web scraper for a Coding Challenge
 The scraper makes a http request to `https://videx.comesconnected.com` and crawls the page for package data
 It uses the subscriptions class at it's starting point and then obtains the nested packages
 
+## Install Depenencies
+The composer dependencies for the project will need to be installed. Please run the following command in the root of the
+repository
+```
+composer install
+```
+
+## Usage
+
 To run the command type the following in your terminal, while in the root directory
 ```
 bin/console crawler:videx
