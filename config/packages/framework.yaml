@@ -14,3 +14,8 @@ framework:
     #fragments: true
     php_errors:
         log: true
+
+    http_client:
+        scoped_clients:
+            videx.client:
+                base_uri: https://videx.comesconnected.com
