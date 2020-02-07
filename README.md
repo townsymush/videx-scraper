@@ -25,6 +25,7 @@ bin/phpunit
 
 ## Reflection
 I unfortunately ran out of time on this challenge and If I had more time would do the following:
+* The application does not handle http errors, timeouts etc at the moment. This would need adding and handling the exceptions
 * Add more unit tests, especially for the functions in the Package entity
 * Add a feature test that runs the command and checks the output
 * Clean up the output of the command, as it just echos out the json at the moment
